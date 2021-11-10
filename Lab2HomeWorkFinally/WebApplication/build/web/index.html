@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>Lab2-Derby</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/css/components.css">
+    <link rel="stylesheet" href="Style/css/icons.css">
+    <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        
+    <p>List of motorcycles</p>
+    <form class="customform" action="./Write">Enter the name of the motorcycle database
+    <input type="text" name="motorcycles">
+    <input type="checkbox" name="Sort" value="1"> Sort by brand
+    <div class="s-12 m-5 l-2 left"><button type="submit">Show motorcycles</button>
+    </div>
+    </form>
+    <br><br><br>
+    <form class="customform" action="./insert">
+       <div class="s-12 l-4">   
+       <input type="text"  placeholder="MODEL_ID"  name="modelidw">  
+       <input type="text"  placeholder="NAME" name="namew">  
+       <input type="text"  placeholder="BRAND" name="brandw">
+       <input type="text"  placeholder="ENGINE_CAPACITY" name="enginecapacityw">
+       <input type="text"  placeholder="POWER" name="powerw">
+       <input type="text"  placeholder="NO_TRACES" name="notracesw">
+       <input type="text"  placeholder="REQUIRE_DRIVING_LICENSE" name="requiredrivinglicensew">
+       <div class="s-12 m-5 l-2 left">
+       <button type="submit">Add motorcycle</button>
+       </div>
+       </div>
+    </form>
+    <form class="customform" action="./update">
+       <div class="s-12 l-4">   
+       <input type="text"  placeholder="MODEL_ID"  name="modelidw">  
+       <input type="text"  placeholder="NAME" name="namew">  
+       <input type="text"  placeholder="BRAND" name="brandw">
+       <input type="text"  placeholder="ENGINE_CAPACITY" name="enginecapacityw">
+       <input type="text"  placeholder="POWER" name="powerw">
+       <input type="text"  placeholder="NO_TRACES" name="notracesw">
+       <input type="text"  placeholder="REQUIRE_DRIVING_LICENSE" name="requiredrivinglicensew">
+       <div class="s-12 m-5 l-2 left">
+       <button type="submit">Update motorcycle</button>
+       </div>
+       </div>
+    </form>
+       <form class="customform" action="./delete">
+       <div class="s-12 l-4">   
+       <input type="text"  placeholder="MODEL_ID"  name="modelidw">  
+       <div class="s-12 m-5 l-2 left">
+       <button type="submit">Delete motorcycle</button>
+       </div>
+       </div>
+    </form>
+    </body>
+</html>
