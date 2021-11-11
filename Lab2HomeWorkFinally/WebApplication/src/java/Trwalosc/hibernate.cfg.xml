@@ -42,7 +42,7 @@ Contributor(s):
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
-    <property name="hibernate.connection.url">jdbc:derby://localhost:1527//home/wojciechskumajto/NetBeansProjects/LAB2/WebApplication/db/DataBaseNetWork</property>
+    <property name="hibernate.connection.url">jdbc:derby://localhost:1527//home/student/NetBeansProjects/wojtek/MyFriendJava/Lab2HomeWorkFinally/WebApplication/db/DataBaseNetWork</property>
     <property name="hibernate.connection.username">wojciechskumajtoNet</property>
     <property name="hibernate.connection.password">123</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
